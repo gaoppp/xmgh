@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="#DEDEDE" android:state_enabled="true" android:state_focused="true" android:state_pressed="false"/>
+    <item android:color="#00B7EF" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:color="#00B7EF" android:state_checked="true" android:state_enabled="true"/>
+    <item android:color="#DEDEDE"/>
+
+</selector><!-- From: file:/J:/Android%20Project/XMGH/res/drawable/text_selector.xml -->

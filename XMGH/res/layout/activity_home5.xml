@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="英国留学之关于租房你该知道的事"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="很多英国留学的小伙伴在对周围环境比较熟悉后会选择在校外租房，一是因为这样生活更自由也更独立;二是这样能更快的融入当地人的圈子。并且很多校外租房的价格比起学校也要便宜不少。下文小编就为大家介绍下关于英国租房你需要注意的一些事!
+
+1.关于中介公司的收费问题要熟知。
+如果你找的是中介公司，那么在费用方面大家需要多注意，除去中介费外，中介机构也无权向客户索要登记注册费、看房费用等。一般情况下，中介费相当于一周房租的费用，千万不要被多收了钱。
+
+2.在同意签署租赁协议之前，向中介索取一个完整的费用清单。
+检查合同中的费用条目，涉及到押金、预定费、中介费、打扫费等。在实际付款的过程中，要注意预定费是需要被退还给我们的，或者减到租金里。
+
+3.明确合同中租房双方的责任与义务(包括物品维修责任、Bill情况)。
+在签合同时仔细阅读条款，房屋的设施如果有损坏或者老旧需更换，一般情况下租户有权向中介或房东提出更换或维修的要求，且不需要再支付任何费用。
+
+4.明眼辨别二房东(即非房东却以房东的身份出租房屋以骗取费用)。
+如果你在网上搜索到价格极低的房子，千万不要轻信。租房时要求中介公司提供证明其身份和资质的材料，如果对方是房东的话可以请他出示房屋所有权的证明，不然的话，最好不要浑水。
+
+5.用Google Maps搜索房子的地理位置，查询确认所属辖区的具体情况。
+向房东和中介索要房屋的邮政编码，直接在Google Maps上输入邮编，就会有精确的地理位置显示，你可以按照房东或中介告诉你的交通状况来一核对、检查是否真如他们所讲的一样方便。此外，小区的门禁系统也需要考虑，最好是大门有保安，且刷卡进入的。
+
+6.找房之前做到心里有数。
+即使是时间仓促且零经验，脑中也要盘算着几个重要诉求，比如地理位置(要么离学校步行近，要么公共交通直达)、治安(印巴区和黑人区一定要尽量避免)、生活方便度(附近有无超市和卖场)，满足了这几个基本条件，会让你初到英国的日子好过许多。我的房子就处在Canary Wharf白人金融区周围，除了去学校需要坐二十分钟公交车外，其他条件都很合适。
+
+7.找正规中介，不可提前签订合同。
+其一，不要提前与房东签合同。由于在国内不方便签约，有些中介会要求租户在合同上签字再发扫描版。其实，这是很具风险的，到地方看了房子再签约也不晚。其二，最好找具有一定规模的中介公司，中国人或英国人经营的都可，最好在当地有固定办公地点和店面。英国最有名的租房网站是Rightmove、Zoopla和Foxtons。至于中国的中介公司，你可以在百度上的许多留学论坛里找到大量的租房信息。"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

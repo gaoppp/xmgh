@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/tool_linearlayout" >
+
+    <TextView
+        android:id="@+id/tv_case_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_case_from"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D0CECC" />
+
+</LinearLayout><!-- From: file:/J:/Android%20Project/XMGH/res/layout/caseitem.xml -->

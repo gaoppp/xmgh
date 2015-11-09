@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="欧元大跌“破7”：留学1年省2万学费"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="昨日，欧元兑人民币即时汇率连续三天“破7”。也就是说，半年前约需花人民币8.6元兑换的1欧元，如今只需人民币7元左右即可。截至昨晚20时，欧元兑人民币已跌至6.9771元，至此，8个多月来，欧元跌幅近19%。
+
+欧元大跌“破7”意味这什么？
+
+留学 一年可省2万多元学费
+
+欧元大跌，享受到实惠的有咱们去欧洲留学的孩纸们。
+
+简单地说，一家商学院读硕士的学费是11800欧元，生活费每月大约需要600欧元，，一年下来共需1.9万欧元。以目前的汇率计算约合13.3万元人民币。而在去年同期，则需要15.6万元人民币，两者相比差了2.3万元人民币。
+
+当然，如果你那一家是13950欧元也是同理可推算的，每兑换1万欧元可比去年同期节省1.2万元人民币。
+
+旅游 法国深度游便宜3000元
+
+对于喜欢在欧洲购物的人群来说，欧元大跌是个不错的消息（你们懂的）。
+
+自去年12月欧元加速下跌以来，多条赴欧旅游路线不断升温。尤其是法国和意大利。举个例子，如法国、意大利12日深度游，2015年春节卖价较2014年春节最多便宜3000元。
+
+现在，法国打折进入第三周，不少品牌都低至1折。某品牌一款牛皮包，官网标价1170欧元（这款高冷的深受天朝人民喜爱的LV包包）。一年前，依据当时汇率，该包值人民币9945元。而现在，只需8190元人民币，差价将近2000块！！！
+
+又比如某品牌一款精华露，国内专柜售价接近800元，前天欧洲售价折合人民币约500元，整整便宜了300元。"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

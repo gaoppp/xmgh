@@ -1,0 +1,73 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" >
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/main_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/tab_brg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_button0"
+                style="@style/main_btn_style"
+                android:drawableTop="@drawable/home_selector"
+                android:tag="radio_button0"
+                android:text="首页" />
+ 
+            <RadioButton
+                android:id="@+id/radio_button1"
+                style="@style/main_btn_style"
+                android:drawableTop="@drawable/comm_selector"
+                android:tag="radio_button1"
+                android:text="圈子" />
+
+            <RadioButton
+                android:id="@+id/radio_button2"
+                style="@style/main_btn_style"
+                android:drawableTop="@drawable/tools_selector"
+                android:tag="radio_button2"
+                android:text="案例集锦" />
+
+            <RadioButton
+                android:id="@+id/radio_button3"
+                style="@style/main_btn_style"
+                android:drawableTop="@drawable/special_selector"
+                android:tag="radio_button3"
+                android:text="DIY申请" />
+
+            <RadioButton
+                android:id="@+id/radio_button4"
+                style="@style/main_btn_style"
+                android:drawableTop="@drawable/user_selector"
+                android:tag="radio_button4"
+                android:text="我" />
+        </RadioGroup>
+    </LinearLayout>
+
+</TabHost>

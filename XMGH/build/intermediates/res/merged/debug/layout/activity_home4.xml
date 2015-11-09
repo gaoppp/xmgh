@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="2015年英国大学专业排名"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="文科专业排名
+英国大学Communication and Media Studies(传播学及媒体研究)专业排名
+英国大学Classics and Ancient History(经典和古代历史)专业排名
+英国大学Celtic Studies(凯尔特研究)专业排名
+英国大学Archaeology(考古学)专业排名
+英国大学Anthropology(人类学)专业排名
+英国大学American Studies(美国研究)专业排名
+英国大学German(德语)专业排名
+英国大学Theology and Religious Studies(神学和宗教研究)专业排名
+英国大学Sociology(社会学)专业排名
+英国大学Social Work(社会工作)专业排名
+英国大学Social Policy(社会政策)专业排名
+英国大学Russian(俄语)专业排名
+英国大学Politics(政治)专业排名
+英国大学Philosophy(哲学)专业排名
+英国大学Middle Eastern and African Studies(中东和非洲研究)专业排名
+英国大学Linguistics(语言学)专业排名
+英国大学Law(法律)专业排名
+英国大学Italian(意大利语)专业排名
+英国大学Iberian Languages(伊比利亚语)专业排名
+英国大学History(历史)专业排名
+英国大学French(法语)专业排名
+英国大学Education(教育)专业排名
+英国大学Economics(经济学)专业排名
+英国大学East and South Asian Studies(东亚和南亚研究)专业排名
+英国大学English(英语)专业排名
+商科专业排名
+英国大学Business Studies(商科)专业排名
+英国大学Accounting and Finance(会计和金融)专业排名
+英国大学Librarianship and Information Management(图书馆和信息管理)专业排名
+英国大学Land and Property Management(土地及物业管理)专业排名
+英国大学Hospitality, Leisure, Recreation and Tourism(体育旅游)专业排名
+理科专业排名
+英国大学Biological-sciences(生物科学)专业排名
+英国大学Chemistry(化学)专业排名
+英国大学Agriculture and Forestry(农业与林业学)专业排名
+英国大学Sports Science(运动科学)专业排名
+英国大学Psychology(心理学)专业排名
+英国大学Physics and Astronomy(物理和天文)专业排名
+英国大学Mathematics(数学)专业排名
+英国大学Town and Country Planning and Landscape(城镇和农村的规划和设计)专业排名
+英国大学Geology(地质学)专业排名
+英国大学Geography and Environmental Sciences(地理和环境科学)专业排名
+英国大学Food Science(营养学)专业排名
+工科专业排名
+英国大学Civil Engineering(土木工程)专业排名
+英国大学Chemical Engineering(化学工程)专业排名
+英国大学Building(建造学)专业排名
+英国大学Architecture(建筑学)专业排名
+英国大学Aeronautical and Manufacturing(航空和制造工程学)专业排名
+英国大学Mechanical Engineering(机械工程)专业排名
+英国大学Materials Technology(材料技术)专业排名
+英国大学General Engineering(一般工程)专业排名
+英国大学Electrical and Electronic Engineering(电子电气工程)专业排名
+英国大学Computer Science(计算机科学)专业排名
+艺术专业排名
+英国大学 Art and Design(艺术)专业排名
+英国大学Music(音乐)专业排名
+英国大学Drama, Dance and Cinematics(戏剧和舞蹈)专业排名
+英国大学History of Art, Architecture and Design(建筑与设计学)专业排名
+医学专业排名
+英国大学Anatomy and Physiology(解剖与生理学)专业排名
+英国大学Veterinary Medicine(兽医)专业排名
+英国大学Pharmacology and Pharmacy(药理学和药剂)专业排名
+英国大学Other Subjects Allied to Medicine(医学相关学科)专业排名
+英国大学Nursing(护理)专业排名
+英国大学Medicine(医学)专业排名
+英国大学Dentistry(牙科)专业排名"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/J:/Android%20Project/XMGH/res/layout/activity_home4.xml -->

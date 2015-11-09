@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical" >
+    <com.gaop.ReFlashListView 
+        android:id="@+id/lv_case"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></com.gaop.ReFlashListView>
+
+    <!-- <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+          <LinearLayout  
+              android:id="@+id/toollilayout1" 
+              style="@style/tool_linearlayout" >
+
+                <TextView
+                    style="@style/tool_title_text"
+                    android:text="小马捷报：牛津大学心理学录取" />
+                
+                <TextView
+                    android:id="@+id/tv_dynamic_title"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/tv_dynamic_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                  android:text="        春节假期的大年初六十个特别难忘的日子，刚刚晨练回家就接到Sunny的微信和电话：‘老师，一大早就收到牛津的Offer，好开心啊！可以去找男神啦！我太激动了！’听到这个消息，我心中的大石头终于落地——这个认真、努力的孩子也等来了她的Dream Offer。\n        Sunny，正如她的名字一样，是一个充满了正能量的女孩......" />
+            </LinearLayout>
+            
+          <LinearLayout android:id="@+id/toollilayout2" style="@style/tool_linearlayout" >
+                <TextView
+                    style="@style/tool_title_text"
+                    android:text="小马捷报：威斯康星大学麦迪逊分校EE录取" />
+                
+               
+                
+                <TextView
+                   
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                  android:text="        Yan是武汉当地一所著名高校的大三学生，跟他的交谈中，可以感受到他与一般工科生的不同。
+
+他的言谈举止都是那么的彬彬有礼，让人感觉舒服。他对自己的发展有坚定的想法，对未来的规划带有些许迷茫但是也充满了希望，他找
+
+到我们就是希望帮他拨开这些迷茫的云雾——他想我们帮助他申请到理想的院校。\n         在见到Yan之前，我们对他反馈的一些基本素材
+
+进行了初步......" />
+            </LinearLayout>
+            
+           <LinearLayout android:id="@+id/toollilayout3" style="@style/tool_linearlayout" >
+                <TextView
+                    style="@style/tool_title_text"
+                    android:text="小马捷报：UCL/圣安 /华威   城市规划录取" />
+                
+                <TextView
+                   
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                
+                <TextView
+                  
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                  android:text="        第一次见到Carrie时，我被她安静的性格和浓浓的艺术气质感染了。多年在中国Top5大学建筑学专业的学习培养了她一种睿智的大局观和身后的人文气息。虽然当时进入小马团队较晚，考试准备也刚起步，但是她对自己的背景和潜力非常有信息。在初次谈话中就表明了自己的Dream School：UCL，而正是她的自信和配合使我们最终拿到了理想的录取......" />
+            </LinearLayout>
+            
+          
+</LinearLayout>      
+ </ScrollView> -->
+
+</LinearLayout><!-- From: file:/J:/Android%20Project/XMGH/res/layout/activity_tool.xml -->

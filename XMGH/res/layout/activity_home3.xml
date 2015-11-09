@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="英国大学春季入学硕士课程招生简章"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="事实上英国大学除了秋季入学还有一些院校的课程开设了春季入学，下面和大家分享以下七所英国大学相关春季入学课程，希望对学生在选择英国大学专业时有所帮助。
+
+一、阿伯丁大学
+
+2012年2月招生的专业有：
+
+1、商科(MBA，人力资源管理，市场营销，石油与天然气战略管理)
+
+2、医药类(临床医学，药剂学，国际健康，微生物学等)
+
+3、文科(国际关系，战略研究，城市规划，能源发展)
+
+二、邓迪大学
+
+2012年1月招生的硕士专业有：
+
+1、档案与信息研究中心的所有课程
+
+2、计算机学院的以下课程：
+
+商务智能、计算机研究
+
+能源，石油及矿产法律政策中心的所有课程
+
+能源，物理及数学学院的以下课程：生物医学工程、医学影像、产品设计
+
+3、法学院的大部分课程
+
+4、社会与能源科学学院的以下课程：国际商务、空间规划(社区参与方向)、空间规划(环境评估方向)、空间规划(海运空间规划方向)、空间规划(可持续城市设计方向)、空间规划(运输规划方向)、城镇与城市规划
+
+5、法律政策与科学中心的以下课程：资源法、水资源管理与法律
+
+三、基尔大学
+
+2012年1月招生的硕士专业有：
+
+1、专业领导力与管理
+
+2、生物医学工程
+
+3、细胞与血管工程
+
+四、牛津布鲁克斯大学
+
+2012年1月招生的硕士专业有：
+
+1、商务管理
+
+2、癌症治疗
+
+3、癌症研究
+
+4、儿童、年轻人和家庭健康学
+
+5、教育学;教育研究(早教和耳聋)
+
+6、健康治疗实践/临床健康治疗实践
+
+7、健康和社会性治疗
+
+8、康复医学(肌肉骨骼、神经学、姿态管理路径传染病预防和控制
+
+9、工商管理学硕士(全球性)
+
+10、健康和社会性治疗管理
+
+11、非医学处方学
+
+12、护理学研究
+
+13、缓和医疗
+
+14、公众健康
+
+15、高等专业教育
+
+五、波恩茅斯大学
+
+2012年1月招生的硕士专业有：
+
+1、国际商务管理
+
+2、市场营销管理
+
+3、零售业管理
+
+4、旅游管理与市场营销
+
+六、诺森比亚大学
+
+2012年1月招生的硕士专业有：
+
+1、分析性化学
+
+2、生物技术
+
+3、设计
+
+七、莱斯特大学
+
+2012年1月招生的硕士专业有：软件工程(金融服务)"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

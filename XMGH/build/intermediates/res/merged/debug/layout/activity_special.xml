@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical"
+    tools:context=".SpecialActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#c0c0c0"
+                   android:id="@+id/lin1"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/special_1" 
+                    android:text="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="上传Passport护照"
+                        android:textColor="#212121"
+                        android:textSize="20sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginTop="1dp" >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/special_2" 
+                    android:text="2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="上传Sttatus credificat"
+                        android:textColor="#c0c0c0"
+                        android:textSize="20sp" />
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:padding="5dp" 
+                android:layout_marginTop="1dp" >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/special_2" 
+                    android:text="3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="上传毕业证、学生证"
+                        android:textColor="#c0c0c0"
+                        android:textSize="20sp" />
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:padding="5dp" 
+                android:layout_marginTop="1dp" >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/special_2" 
+                    android:text="4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="上传Transcript专业成绩单"
+                        android:textColor="#c0c0c0"
+                        android:textSize="20sp" />
+            </LinearLayout>
+            
+              <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:padding="5dp" 
+                android:layout_marginTop="1dp" >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/special_2" 
+                    android:text="5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="上传Reference推荐信"
+                        android:textColor="#c0c0c0"
+                        android:textSize="20sp" />
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:padding="5dp" 
+                android:layout_marginTop="1dp" >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/special_2" 
+                    android:text="6"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="上传IELTC或TOFEL成绩"
+                        android:textColor="#c0c0c0"
+                        android:textSize="20sp" />
+            </LinearLayout>
+            
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/J:/Android%20Project/XMGH/res/layout/activity_special.xml -->
